@@ -1,0 +1,55 @@
+/* body{
+  background-color: rgb(214, 214, 214);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+
+.block_image_block{
+  outline: solid red 1px;
+}
+.block_image_block img{
+  width: 100%;
+  height: auto;
+}
+.skip-link {
+  position: absolute;
+  top: -30px;
+}
+
+.skip-link:focus-visible {
+  top: 5px;
+}
+
+footer{
+  background-color: rgb(58,63,68);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+footer a{
+  color: bisque;
+}
+
+
+.page-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.page-form :is(textarea, input, select) {
+  width: 100%;
+  max-width: 500px;
+  min-height: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.page-form .helptext {
+  font-style: italic;
+}
+
+.page-form button{
+  margin-top: 2rem;
+}
